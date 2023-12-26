@@ -1,4 +1,4 @@
-body, h1, h2, p {
+body, h1, h2, p, img {
   margin: 0;
   padding: 0;
 }
@@ -27,30 +27,29 @@ main {
   margin-bottom: 2rem;
 }
 
-h2 {
-  color: #333;
-  margin-bottom: 0.5rem;
+#football h2 {
+  color: #FF4500;
 }
 
-strong {
-  font-weight: bold;
+#reading p {
+  color: #ffffff;
 }
 
-i {
-  font-style: italic;
+#movies img {
+  border: 2px solid #483D8B;
 }
 
-u {
-  text-decoration: underline;
+#sleeping {
+  background-color: #000;
+  color: #fff;
 }
-
 
 img {
   display: block;
   margin: 1rem auto;
   max-width: 100%;
   height: auto;
-  max-height: 300px; 
+  max-height: 300px;
 }
 
 footer {
@@ -58,4 +57,16 @@ footer {
   padding: 1rem 0;
   background-color: #333;
   color: #fff;
+}
+
+h2 + p {
+  font-size: 1.2em;
+}
+
+a:hover {
+  color: #FFD700;
+}
+
+h2 strong {
+  color: #DC143C;
 }
